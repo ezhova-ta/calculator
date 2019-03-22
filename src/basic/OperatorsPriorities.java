@@ -13,7 +13,7 @@ class OperatorsPriorities implements AbstractOperatorsPriorities {
     private Map<String, Integer> map;
 
     /**
-     * @param map Отображение, хранящее приоритеты операций
+     * @param map отображение, хранящее приоритеты операций
      */
     OperatorsPriorities(HashMap<String, Integer> map) {
         this.map = map;
