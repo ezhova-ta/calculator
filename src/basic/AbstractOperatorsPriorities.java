@@ -16,7 +16,7 @@ public interface AbstractOperatorsPriorities {
      * Добавляет оператор.
      *
      * @param operator оператор
-     * @param priority приоритет операции, связанной с переданным оператором
+     * @param priority приоритет операции, ассоциированной с переданным оператором
      */
     void addOperator(String operator, int priority);
 
