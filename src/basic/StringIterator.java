@@ -10,7 +10,7 @@ class StringIterator implements AbstractStringIterator {
     private String string;
 
     /**
-     * Индекс текущего символа строки.
+     * Индекс текущего символа строки, содержащей математическое выражение
      */
     private int currentIndex;
 
