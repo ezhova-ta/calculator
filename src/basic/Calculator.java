@@ -46,7 +46,7 @@ class Calculator {
      * @throws NullPointerException если строка не является корректным математическим выражением
      * @throws EmptyStackException если строка не является корректным математическим выражением
      */
-    Double getResult() throws NullPointerException, EmptyStackException { // если всё плохо, вернуть null
+    Double getResult() throws NullPointerException, EmptyStackException {
         while(iterator.hasNext()) {
             String element = iterator.next();
 
